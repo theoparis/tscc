@@ -1,11 +1,3 @@
-declare namespace LLVM {
-  export interface Indexable<T> {
-    [index: number]: T;
-  }
-
-  function addressToArrayBuffer<T>(value: number): Indexable<T>;
-}
-
 class VGA {
   private static readonly VGA_ADDRESS = 0xb8000;
   private static readonly VGA_WIDTH = 80;

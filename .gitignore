@@ -1,1 +1,9 @@
 /typescript-go
+*.o
+*.a
+*.so
+*.dylib
+*.lib
+*.dll
+*.exe
+*.out
